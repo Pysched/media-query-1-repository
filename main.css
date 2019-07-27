@@ -1,0 +1,19 @@
+.column {
+    width:75%;
+    height:200px;
+    margin:50px;
+    border:1px solid red;
+    background-color:green;
+        margin-left:auto;
+        margin-right:auto;
+    padding:50px;
+    
+}
+
+@media (max-width:992px) {
+    .column{
+        width:30%;
+        margin:10px;
+    
+    }
+}
